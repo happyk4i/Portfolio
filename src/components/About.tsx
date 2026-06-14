@@ -36,8 +36,7 @@ export default function About({ config }: AboutProps) {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                     referrerPolicy="no-referrer"
                     onError={(e) => {
-                      // Fallback image if paths have issues
-                      (e.target as HTMLImageElement).src = "../src/assets/images/regenerated_image_1781372787357.jpg";
+                      (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400";
                     }}
                   />
                 ) : (
