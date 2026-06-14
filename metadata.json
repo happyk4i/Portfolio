@@ -1,0 +1,6 @@
+{
+  "name": "Naufal Website",
+  "description": "Naufal's Digital Alchemy portfolio website showing experiences, skills, projects, and contact info.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
