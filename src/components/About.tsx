@@ -64,7 +64,7 @@ export default function About({ config }: AboutProps) {
 
           {/* Profile Details */}
           <div className="lg:col-span-7 flex flex-col justify-center">
-            <h2 className="font-display font-medium text-4xl sm:text-5xl text-white tracking-tight leading-tight mb-6 bg-gradient-to-r from-white via-indigo-100 to-indigo-300 bg-clip-text text-transparent">
+            <h2 className="font-display font-medium text-4xl sm:text-5xl tracking-tight leading-tight mb-6 bg-gradient-to-r from-white via-indigo-100 to-indigo-300 bg-clip-text text-transparent">
               {config.title}
             </h2>
             

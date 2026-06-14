@@ -17,7 +17,7 @@ export default function Experience({ items }: ExperienceProps) {
         
         {/* Section Header */}
         <div className="text-center mb-20">
-          <h2 className="font-display font-medium text-4xl sm:text-5xl text-white tracking-tight leading-tight mb-4 bg-gradient-to-r from-white via-indigo-100 to-indigo-200 bg-clip-text text-transparent">
+          <h2 className="font-display font-medium text-4xl sm:text-5xl tracking-tight leading-tight mb-4 bg-gradient-to-r from-white via-indigo-100 to-indigo-200 bg-clip-text text-transparent">
             Career Journey
           </h2>
           <p className="font-sans text-gray-400 text-base sm:text-lg max-w-xl mx-auto select-none leading-relaxed">

@@ -1072,7 +1072,7 @@ export default function ControlPanel({
                           <span className="font-mono text-[9px] text-gray-600 self-center">{msg.timestamp}</span>
                         </div>
 
-                        <p className="font-sans text-xs text-gray-400 leading-relaxed bg-indigo-950/10 p-4 border border-indigo-950/80 rounded-xl leading-normal break-words select-all">
+                        <p className="font-sans text-xs text-gray-400 leading-relaxed bg-indigo-950/10 p-4 border border-indigo-950/80 rounded-xl break-words select-all">
                           {msg.message}
                         </p>
 

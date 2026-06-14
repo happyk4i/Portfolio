@@ -66,7 +66,7 @@ export default function Contact({ email, githubUrl, linkedinUrl, twitterUrl, onS
           
           {/* Left Column Information */}
           <div className="lg:col-span-5">
-            <h2 className="font-display font-medium text-4xl sm:text-5xl text-white tracking-tight leading-tight mb-4 bg-gradient-to-r from-white via-indigo-100 to-indigo-200 bg-clip-text text-transparent">
+            <h2 className="font-display font-medium text-4xl sm:text-5xl tracking-tight leading-tight mb-4 bg-gradient-to-r from-white via-indigo-100 to-indigo-200 bg-clip-text text-transparent">
               Manifest Your Project
             </h2>
             
@@ -231,7 +231,7 @@ export default function Contact({ email, githubUrl, linkedinUrl, twitterUrl, onS
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full py-4 rounded-xl font-sans font-medium tracking-wide text-white bg-indigo-600 hover:bg-indigo-500 active:scale-98 transition-all duration-300 block text-center text-sm shadow-lg shadow-indigo-600/20 cursor-pointer disabled:opacity-50 flex items-center justify-center gap-2"
+                  className="w-full py-4 rounded-xl font-sans font-medium tracking-wide text-white bg-indigo-600 hover:bg-indigo-500 active:scale-98 transition-all duration-300 text-center text-sm shadow-lg shadow-indigo-600/20 cursor-pointer disabled:opacity-50 flex items-center justify-center gap-2"
                 >
                   {isSubmitting ? (
                     <>

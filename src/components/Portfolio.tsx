@@ -394,14 +394,13 @@ export default function Portfolio({ projects: portfolioProjects }: PortfolioProp
         {/* Dynamic Header Block with Subtitles & Pill Navigation */}
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between mb-8 gap-8">
           <div>
-            <h2 className="font-display font-medium text-4xl sm:text-5xl text-white tracking-tight leading-tight mb-4 bg-gradient-to-r from-white via-indigo-100 to-indigo-200 bg-clip-text text-transparent">
+            <h2 className="font-display font-medium text-4xl sm:text-5xl tracking-tight leading-tight mb-4 bg-gradient-to-r from-white via-indigo-100 to-indigo-200 bg-clip-text text-transparent">
               Portfolio
             </h2>
             <p className="font-sans text-gray-400 text-base sm:text-lg max-w-xl select-none leading-relaxed">
               A curated collection of my most complex transmutations and digital explorations.
             </p>
           </div>
-
           <div className="flex flex-wrap items-center gap-4">
             <CategoryFilter 
               availableCategories={availableCategories} 
