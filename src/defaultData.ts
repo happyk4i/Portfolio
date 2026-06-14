@@ -19,7 +19,7 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
   about: {
     title: "I am Naufal",
     description: "I specialize Full Stack Programmer focused on developing innovative, scalable, and high-performance digital solutions. With expertise in both front-end and back-end development, he is capable of building responsive, secure, and user-centric web applications that deliver exceptional user experiences. Possessing strong analytical skills, a continuous learning mindset, and the ability to collaborate effectively in dynamic environments, he consistently stays up to date with emerging technologies to create solutions that support business growth and digital transformation. Committed to quality, innovation, and problem-solving, Muhammad Naufal is dedicated to delivering meaningful impact and becoming a valuable strategic asset for organizations striving for long-term success.",
-    portraitUrl: "/src/assets/images/regenerated_image_1781372787357.jpg",
+    portraitUrl: "./assets/images/regenerated_image_1781372787357.jpg",
     valueCards: [
       {
         id: "1",
@@ -75,7 +75,7 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
       id: "p1",
       title: "Synthetix Dashboard",
       category: "FRONT-END",
-      imageUrl: "/src/assets/images/project_dashboard_1781369015641.jpg",
+      imageUrl: "./assets/images/project_dashboard_1781369015641.jpg",
       tags: ["React", "D3.js", "Tailwind"],
       description: "A high-performance system designed to aggregate and display decentralized digital assets, real-time indicators, and market fluctuations.",
       situation: "A modern fintech client needed a cohesive dashboard to visualize volatile digital assets, market trajectories, and live feeds with minimal UI lag.",
@@ -87,7 +87,7 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
       id: "p2",
       title: "Aetheria CMS",
       category: "FULL-STACK",
-      imageUrl: "/src/assets/images/project_cms_1781369028960.jpg",
+      imageUrl: "./assets/images/project_cms_1781369028960.jpg",
       tags: ["Next.js", "Prisma", "PostgreSQL"],
       description: "A blazing fast, creative-centric headless CMS engine featuring a declarative content builder and nested layout routers.",
       situation: "Marketing and creative agencies found existing database web portals slow and inflexible for managing multi-dimensional campaigns.",
@@ -99,7 +99,7 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
       id: "p3",
       title: "Void Mobile App",
       category: "MOBILE",
-      imageUrl: "/src/assets/images/project_mobile_1781369045030.jpg",
+      imageUrl: "./assets/images/project_mobile_1781369045030.jpg",
       tags: ["React Native", "Expo", "Reanimated"],
       description: "A clean, distraction-free mobile portal focused on breathing-automation loops and minimal sensory wellness.",
       situation: "Mobile users reported feeling overwhelmed by health trackers cluttered with telemetry, background alerts, and aggressive social prompts.",
