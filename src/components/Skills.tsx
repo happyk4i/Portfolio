@@ -22,7 +22,7 @@ export default function Skills({ groups }: SkillsProps) {
         
         {/* Section Header */}
         <div className="mb-16 max-w-3xl">
-          <h2 className="font-display font-medium text-4xl sm:text-5xl text-white tracking-tight leading-tight mb-4 bg-gradient-to-r from-white via-indigo-100 to-indigo-200 bg-clip-text text-transparent">
+          <h2 className="font-display font-medium text-4xl sm:text-5xl tracking-tight leading-tight mb-4 bg-gradient-to-r from-white via-indigo-100 to-indigo-200 bg-clip-text text-transparent">
             Specializations
           </h2>
           <p className="font-sans text-gray-400 text-base sm:text-lg max-w-2xl select-none leading-relaxed">

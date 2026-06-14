@@ -16,7 +16,7 @@ export default function Testimonials({ testimonials }: TestimonialsProps) {
         
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="font-display font-medium text-4xl sm:text-5xl text-white tracking-tight leading-tight mb-4 bg-gradient-to-r from-white via-indigo-100 to-indigo-200 bg-clip-text text-transparent">
+          <h2 className="font-display font-medium text-4xl sm:text-5xl tracking-tight leading-tight mb-4 bg-gradient-to-r from-white via-indigo-100 to-indigo-200 bg-clip-text text-transparent">
             Testimonials
           </h2>
         </div>
@@ -48,7 +48,7 @@ export default function Testimonials({ testimonials }: TestimonialsProps) {
               {/* Profile Details footer */}
               <div className="flex items-center gap-4.5 pt-5 border-t border-indigo-950/40 mt-auto">
                 {/* Initials avatar badge */}
-                <div className="w-11 h-11 rounded-xl bg-indigo-600 border border-indigo-500 flex items-center justify-center text-white font-mono font-bold text-sm tracking-widest shadow-md shadow-indigo-600/20 shadow-inner">
+                <div className="w-11 h-11 rounded-xl bg-indigo-600 border border-indigo-500 flex items-center justify-center text-white font-mono font-bold text-sm tracking-widest shadow-inner shadow-indigo-600/20">
                   {test.initials}
                 </div>
                 
