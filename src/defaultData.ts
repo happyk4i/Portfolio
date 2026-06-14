@@ -3,9 +3,9 @@ import { PortfolioData } from "./types";
 export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
   logoText: "NAUFAL WEBSITE",
   socials: {
-    github: "https://github.com",
+    github: "https://github.com/happyk4i",
     linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    twitter: "https://x.com/akpunya5jtpower",
   },
   hero: {
     badge: "Muhammad Naufal Yasir",
