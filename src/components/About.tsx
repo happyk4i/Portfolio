@@ -2,6 +2,7 @@ import React from "react";
 import { Clock, Eye, MessageSquare, LucideIcon, Shield, Verified, User, Binary } from "lucide-react";
 import { AboutConfig } from "../types";
 
+
 const iconMap: Record<string, LucideIcon> = {
   Clock: Clock,
   Eye: Eye,
@@ -13,6 +14,7 @@ interface AboutProps {
 }
 
 export default function About({ config }: AboutProps) {
+  const imageUrl = new URL(config.portraitUrl, import.meta.url).href;
   return (
     <section id="about" className="py-24 bg-[#030014]/93 border-t border-indigo-950/20 relative overflow-hidden">
       {/* Background glow behind portrait */}
@@ -31,7 +33,7 @@ export default function About({ config }: AboutProps) {
               <div className="relative aspect-square sm:aspect-[4/5] rounded-2xl overflow-hidden bg-indigo-950/40 border border-white/10 shadow-2xl">
                 {config.portraitUrl ? (
                   <img
-                    src={config.portraitUrl}
+                    src={imageUrl}
                     alt={config.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                     referrerPolicy="no-referrer"
